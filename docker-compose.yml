@@ -1,0 +1,13 @@
+version: "3"
+services:
+  go-api:
+    build: ./go-api
+    ports:
+      - "3001:3001"
+    depends_on:
+      - node-api
+
+  node-api:
+    build: ./node-api
+    ports:
+      - "3000:3000"
