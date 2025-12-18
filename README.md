@@ -44,11 +44,11 @@ En caso de que el formato no sea el indicado la respuesta que vera será
 En caso de que el formato sea correcto el response code seria 200 y la respuesta seria dependiendo de la matriz que se mande, un ejemplo seria
 
 {
-    "average": -1.3416407864998738,
+    "average": -1.05,
     "isDiagonal": false,
-    "max": 0.4472135954999581,
-    "min": -6.708203932499369,
-    "sum": -10.73312629199899
+    "max": 0.6,
+    "min": -5,
+    "sum": -8.4
 }
 
 
